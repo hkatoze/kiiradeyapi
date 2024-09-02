@@ -28,7 +28,7 @@ require("./src/routes/signup")(app);
 require("./src/routes/login")(app);
 
 require("./src/routes/createDelivery")(app);
-require("./src/routes/getDeliveryBypk")(app);
+require("./src/routes/getDeliveryByPk")(app);
 require("./src/routes/getAllDeliveries")(app);
 require("./src/routes/updateDelivery")(app);
 require("./src/routes/deleteDelivery")(app);
